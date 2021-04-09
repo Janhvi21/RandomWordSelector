@@ -1,10 +1,12 @@
 # RandomWordSelector
 
 
+This is an application that displays words in random order, one at a time, with server-side execution.
+
 Steps to run is Project:
-1) Download zip folder or clone project to local machine.
+1) Download zip folder or clone project to the local machine.
 2) Open .sln file in Visual Studio
-3) Build Project and resolve dependencies.
+3) Build the project and resolve dependencies.
 4) Open appSettings.json and replace the connection String for Database Connection:
   "ConnectionStrings": {
     "DefaultConnection": //Enter Connection String Here
