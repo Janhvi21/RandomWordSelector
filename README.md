@@ -15,12 +15,12 @@ Steps to run is Project:
 
 # Results:
 
- Note: Add Input String as words separated by commas:
-Current Server State is displayed in the block below the Button
-  Red Block: Server is in Stopped State
-  Green Block: Server is Running
-CurrentWord: Server sends words randomly from the User List
-TimeRemaining: Remaining amount of time for which server would be in running state.
+ Note: Add Input String as words separated by commas:<br>
+Current Server State is displayed in the block below the Button<br>
+  Red Block: Server is in Stopped State<br>
+  Green Block: Server is Running<br>
+CurrentWord: Server sends words randomly from the User List<br>
+TimeRemaining: Remaining amount of time for which server would be in running state.<br>
 
 ![image](https://user-images.githubusercontent.com/45782617/114217688-7a0eb500-9936-11eb-99d0-74f67fcd30d7.png)
 
