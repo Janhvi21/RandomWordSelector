@@ -28,6 +28,6 @@ Steps to run is Project:
 ![image](https://user-images.githubusercontent.com/45782617/114226042-16d65000-9941-11eb-8c6c-41e9bd34f122.png)
 
 
-Database Log on Server State Change:
+Database Log on Server State Change:<br>
 ![image](https://user-images.githubusercontent.com/45782617/114226144-37060f00-9941-11eb-9cd4-e42a7bfb9767.png)
 
