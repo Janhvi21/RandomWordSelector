@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using RandomWord.Models;
 using System;
 using System.Collections.Generic;
@@ -7,13 +8,15 @@ using System.Threading.Tasks;
 
 namespace RandomWord.Data
 {
-    public class CommandLogContext:DbContext
+    public class CommandLogContext : DbContext
     {
         public DbSet<CommandLog> commandLogs { get; set; }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=DB;Integrated Security=SSPI;");
+            string connString = Startup.Configuration.GetConnectionString("DefaultConnection");
+            optionsBuilder.UseSqlServer(connString);
         }
     }
-   
+
 }
