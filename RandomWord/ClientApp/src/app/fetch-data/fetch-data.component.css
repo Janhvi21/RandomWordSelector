@@ -1,0 +1,7 @@
+.running {
+  background-color: springgreen;
+}
+
+.stopped {
+  background-color: palevioletred;
+}

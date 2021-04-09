@@ -1,0 +1,14 @@
+<p>Add list of words here:</p>
+<div class="form-group">
+<textarea class="form-control" id="word" [(ngModel)]="wordListInput"></textarea>
+  <br />
+  <button type="button" class="btn btn-success" (click)="onButtonPress()">Start</button>
+</div>
+<div [ngClass]="{'running': commandRunnning === True,'stopped':commandRunning===false}">
+  <p>CommandRunning: &nbsp;   {{commandRunning}}</p>
+  <p>CurrentWord:  &nbsp;  {{currentWord}}</p>
+  <p>TimeRemaining: &nbsp;   {{timeRemaining}}</p>
+
+</div>
+
+
